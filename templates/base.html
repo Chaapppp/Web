@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            {% block title %}
-            Home
-            {% endblock %}
-        </title>
-        <style>
-          body {
-            background-repeat: no-repeat;
-            background-size: cover;
-          }
-        </style>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    {% block title %}
+    Home
+    {% endblock %}
+    </title>
+    <style>
+    body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+              
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="wish" href="/wish">wish</a>
+            <a class="nav-item nav-link" id="home" href="/home">home</a>
+            <a class="nav-item nav-link" id="bibliography" href="/bibliography">ประวัติส่วนตัว</a>
+            <a class="nav-item nav-link" id="contact" href="/contact">ติดต่อเรา</a>
+            <a class="nav-item nav-link" id="make_wish" href="/make_wish">ระบบอวยพรวันเกิด</a>
+            <a class="nav-item nav-link" id="login" href="/login">Login</a>
+            <a class="nav-item nav-link" id="Register" href="/register">Sign Up</a>
+          </div>
+        </div>
+    </nav>
+</body>
+</html>
