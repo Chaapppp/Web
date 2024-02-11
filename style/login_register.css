@@ -6,3 +6,11 @@ body {
   background-size: cover; /* Cover the entire background with the image */
   color: #000000; /* Set text color to black */
 }
+
+/* CSS for form container */
+.form_ {
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  padding: 20px; /* Add padding inside the form container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
