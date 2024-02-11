@@ -36,3 +36,18 @@ p {
 .btn-container {
     text-align: center; /* Center-align buttons */
 }
+
+/* CSS for buttons */
+.btn {
+    display: inline-block; /* Display buttons inline */
+    width: 150px; /* Set button width */
+    margin: 20px; /* Add margin */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color */
+    background-color: #df0f0f; /* Set background color */
+    border-radius: 5px; /* Set border radius */
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set z-index */
+}
