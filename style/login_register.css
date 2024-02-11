@@ -1,0 +1,8 @@
+/* CSS for body background image */
+body {
+  background-image: url('../images/welcome_to.jpg'); /* Path to the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-attachment: fixed; /* Keep the background image fixed while scrolling */
+  background-size: cover; /* Cover the entire background with the image */
+  color: #000000; /* Set text color to black */
+}
