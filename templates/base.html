@@ -50,6 +50,11 @@
           <a class="nav-item nav-link" id="bibliography" href="/bibliography">About</a>
           <a class="nav-item nav-link" id="contact" href="/contact">Contact us</a>
           <a class="nav-item nav-link" id="make_wish" href="/make_wish">Wishing</a>
+          {% else %}
+          <a class="nav-item nav-link" id="welcome" href="/">Home</a>
+          <a class="nav-item nav-link" id="login" href="/login">Login</a>
+          <a class="nav-item nav-link" id="register" href="/register">Sign Up</a>
+          {% endif %}
         </div>
       </div>
     </nav>
