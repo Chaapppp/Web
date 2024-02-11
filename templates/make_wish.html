@@ -2,3 +2,38 @@
 {% block title %}
     Birthday Wishing system
 {% endblock %}
+
+{% block content %}
+<!-- Include external CSS stylesheet -->
+<link rel="stylesheet" type="text/css" href="../static/style/page.css">
+<style>
+    /* Define custom style for buttons to have equal width */
+    .btn-equal-width {
+        width: 500px;  
+    }
+</style>
+    <!-- Add vertical space for better alignment -->
+    <br><br><br>
+
+    <!-- Container -->
+    <div  id='container' align="center">
+        <!-- Title -->
+        <br><h1>Wishing</h1><br><hr>
+
+        <!-- Form -->
+        <div class="container my-2">
+            <form method="POST">
+                <!-- Include hidden tag for CSRF protection -->
+                {{form.hidden_tag()}}
+    
+                <!-- Input field for text -->
+                {{form.text.label}}<br>
+                {{form.text()}} <br> <br>
+
+                <!-- Submit buttons with equal width -->
+                {{ form.save_submit(class="btn btn-primary btn-equal-width ") }}
+            </form>
+            <hr>
+        </div>
+    </div>
+{% endblock %}
