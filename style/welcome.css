@@ -1,0 +1,12 @@
+/* CSS for body */
+body {
+    background-image: url('../images/welcome_to.jpg'); /* Set background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Fixed background position */
+    background-size: cover; /* Cover the entire viewport */
+    font-family: 'Arial', sans-serif; /* Set font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f5f5f5; /* Fallback background color */
+    color: #333; /* Default text color */
+}
