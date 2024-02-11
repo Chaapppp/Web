@@ -1,3 +1,36 @@
+{% extends "base.html" %}
+
 {% block title %}
-    bibliography
+About
+{% endblock %}
+{% block content %}
+<!-- Heading -->
+<br>
+<h1> About Benedict Cumberbatch </h1>
+<hr>
+
+<!-- Card group -->
+<div class="container" style="margin-top: 20px;">
+  <div class="card-group">
+
+    <!-- Medpark Hospital card -->
+    <div class="card">
+      <div class="card-header">Benedict Cumberbatch</div>
+      <img src="../static/images/Benedict_Cumberbatch_Sherlock.jpg" class="card-img-top" height="900">
+      <div class="card-body">
+        <h5 class="card-title">Benedict Timothy Carlton Cumberbatch CBE (born 19 July 1976) is an English actor. Known for his work on screen and stage, 
+            <br>he has received various accolades, including a BAFTA Award, a Primetime Emmy Award and a Laurence Olivier Award, in addition to nominations for two Academy Awards and four Golden Globes. 
+            <br>In 2014, Time magazine named him one of the 100 most influential people in the world, and in 2015, he was appointed a CBE for services to performing arts and charity.
+
+            <br><br>Cumberbatch studied drama at the Victoria University of Manchester and obtained a Master of Arts in classical acting at the London Academy of Music and Dramatic Art. 
+            <br>He began acting in Shakespearean theatre productions before making his West End debut in Richard Eyre's revival of Hedda Gabler in 2005. 
+            <br>Since then, he has starred in Royal National Theatre productions of After the Dance (2010) and Frankenstein (2011), winning the Laurence Olivier Award for Best Actor for the latter. In 2015, he played the title role in Hamlet at the Barbican Theatre.
+            <br>Cumberbatch's television work includes his performance as Stephen Hawking in the film Hawking (2004). He gained wide recognition for portraying Sherlock Holmes in the series Sherlock from 2010 to 2017, for which he won a Primetime Emmy Award for Outstanding Lead Actor. For playing the title role in the miniseries Patrick Melrose (2018), he won the BAFTA TV Award for Best Actor.</h5>
+        <div align="right">
+          <a href="https://en.wikipedia.org/wiki/Benedict_Cumberbatch" class="btn btn-primary">more info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
