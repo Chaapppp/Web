@@ -17,3 +17,22 @@ h1, h2 {
     text-align: center; /* Center-align headings */
     color: #33ad33; /* Set heading color */
 }
+
+
+/* CSS for paragraphs */
+p {
+    text-align: center; /* Center-align paragraphs */
+    line-height: 1.5; /* Set line height */
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set z-index */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Set border radius */
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    margin: 0 auto; /* Center-align horizontally */
+    max-width: 700px; /* Set maximum width */
+}
+
+/* CSS for buttons container */
+.btn-container {
+    text-align: center; /* Center-align buttons */
+}
