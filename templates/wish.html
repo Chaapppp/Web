@@ -20,5 +20,16 @@ Account
     <li>{{first_name}}</li>
     <br>
     <hr>
+     <!-- Text Records -->
+     <h3>History</h3>
+     <ul>
+         {% for txt_records in txt_records %}
+         <li>
+             Date: {{txt_records.now}} 
+             <br>
+             Text: {{txt_records.text}} 
+         </li>
+         {% endfor %}
+     </ul>
 
 {% endblock %}
