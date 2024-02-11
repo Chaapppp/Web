@@ -40,3 +40,16 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav">
+          <!-- Navigation links -->
+          {% if user.is_authenticated %}
+          <a class="nav-item nav-link" id="wish" href="/wish">Wish</a>
+          <a class="nav-item nav-link" id="home" href="/home">Home</a>
+          <a class="nav-item nav-link" id="bibliography" href="/bibliography">About</a>
+          <a class="nav-item nav-link" id="contact" href="/contact">Contact us</a>
+          <a class="nav-item nav-link" id="make_wish" href="/make_wish">Wishing</a>
+        </div>
+      </div>
+    </nav>
